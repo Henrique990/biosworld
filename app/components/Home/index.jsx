@@ -13,7 +13,7 @@ import {
 import Image from "next/image";
 
 import logo from "../../../public/img/home/bios.png";
-import arrow from "../../../public/img/home/arrow 1.png";
+import arrow from "../../../public/img/home/Arrow 1.png";
 import tigerr from "../../../public/img/home/tigerr 1.png";
 import zebra from "../../../public/img/home/zebra 2.png";
 import elephant from "../../../public/img/home/elephant 1.png";
