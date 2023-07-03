@@ -2,10 +2,14 @@ import React from "react";
 
 import Image from "next/image";
 
+import eth from "../../../public/img/WalletConnection/eth.png";
+import bnb from "../../../public/img/WalletConnection/bnb.png";
+import usdt from "../../../public/img/WalletConnection/usdt.png";
+import biosw from "../../../public/img/WalletConnection/BIOSW 1.png";
 
 export default function CardPayment() {
   return (
-    <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-start gap-1 relative w-full h-[648px] items-stretch pt-10 pb-8 px-12 rounded">
+    <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-start gap-1 relative w-[38.75rem] h-[40.47463rem] items-stretch pt-10 pb-8 px-12 rounded ">
       <div className="flex flex-row justify-between relative items-center mb-6 ml-0 mr-px">
         <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-24 shrink-0 h-16 items-center pt-2 pb-3 border rounded">
           <div className="text-center text-xl font-['Inter'] font-bold text-[#e9e9e9] justify-start relative h-full">
@@ -63,7 +67,7 @@ export default function CardPayment() {
       <div className="flex flex-row justify-between relative items-center mb-3 ml-0">
         <div className="border-solid border-[#40a072] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-center mt-px gap-3 relative h-12 items-center pl-2 pr-3 py-1 border-2 rounded">
           <Image
-            // src="606597900390625"
+            src={eth}
             className="min-h-0 min-w-0 relative w-8 shrink-0"
           />
           <div className="text-xs font-['Inter'] font-medium text-[#c1c1c1] relative w-6 shrink-0 h-[50.73%]">
@@ -72,7 +76,7 @@ export default function CardPayment() {
         </div>
         <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-2 relative items-center pl-2 pr-3 py-1 border-2 rounded">
           <Image
-            // src="87216567993164"
+            src={usdt}
             className="min-h-0 min-w-0 mb-1 relative w-8 shrink-0"
           />
           <div className="text-center text-xs font-['Inter'] font-medium text-[#c1c1c1] justify-start relative h-[75.17%]">
@@ -85,7 +89,7 @@ export default function CardPayment() {
         </div>
         <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-2 relative h-12 items-center pl-2 pr-4 py-1 border-2 rounded">
           <Image
-            // src="606597900390625"
+            src={bnb}
             className="min-h-0 min-w-0 relative w-8 shrink-0"
           />
           <div className="text-center text-xs font-['Inter'] font-medium text-[#c1c1c1] relative w-8 shrink-0 h-[38.76%]">
@@ -94,7 +98,7 @@ export default function CardPayment() {
         </div>
         <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-1 relative h-12 items-center pl-2 pr-3 py-2 border-2 rounded">
           <Image
-            // src="606597900390625"
+            src={usdt}
             className="min-h-0 min-w-0 relative w-8 shrink-0"
           />
           <div className="text-center text-xs font-['Inter'] font-medium text-[#c1c1c1] justify-start relative h-[73.9%]">
@@ -133,7 +137,7 @@ export default function CardPayment() {
             0
           </div>
           <Image
-            // src="31329345703125x33.31329345703125"
+            src={eth}
             className="min-h-0 min-w-0 relative w-8 shrink-0"
           />
         </div>
@@ -142,7 +146,7 @@ export default function CardPayment() {
             0
           </div>
           <Image
-            // src="75949478149414x36.357791900634766"
+            src={biosw}
             className="min-h-0 min-w-0 relative w-10 shrink-0"
           />
         </div>
