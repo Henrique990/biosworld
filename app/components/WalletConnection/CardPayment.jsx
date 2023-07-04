@@ -9,7 +9,7 @@ import biosw from "../../../public/img/WalletConnection/BIOSW 1.png";
 
 export default function CardPayment() {
   return (
-    <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-start gap-1 relative w-[38.75rem] h-[40.47463rem] items-stretch pt-10 pb-8 px-12 rounded ">
+    <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-start gap-1 relative max-w-[38.75rem] max-h-[40.47463rem] items-stretch pt-10 pb-8 px-12 rounded ">
       <div className="flex flex-row justify-between relative items-center mb-6 ml-0 mr-px">
         <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-24 shrink-0 h-16 items-center pt-2 pb-3 border rounded">
           <div className="text-center text-xl font-['Inter'] font-bold text-[#e9e9e9] justify-start relative h-full">

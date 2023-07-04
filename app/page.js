@@ -11,8 +11,7 @@ import WalletConnection from "./components/WalletConnection";
 
 export default function Page() {
   return (
-    <>
-      <div className="container mx-auto p-4">
+      <div className="w-full">
         <Home />
         <WalletConnection />
         <About />
@@ -24,6 +23,5 @@ export default function Page() {
         <HowToBuySection />
         <Footer />
       </div>
-    </>
   )
 }

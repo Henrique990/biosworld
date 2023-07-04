@@ -10,6 +10,9 @@ module.exports = withMT(
         './app/**/*.{js,ts,jsx,tsx,mdx}',
       ],
       theme: {
+        fontFamily: {
+          cattino: ['Cattino'],
+        },
         extend: {
           backgroundImage: {
             'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
