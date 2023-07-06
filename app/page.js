@@ -18,8 +18,8 @@ export default function Page() {
         <Info />
         <Tokenomics />
         <TokenInfo />
-        {/*<Roadmap />
-        <MeetTeam />
+        <Roadmap />
+        {/*<MeetTeam />
         <HowToBuySection />
         <Footer /> */}
       </div>
