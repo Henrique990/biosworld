@@ -1,283 +1,276 @@
-import React from 'react'
+import React from "react";
 
 export default function Table() {
   return (
-    <div className="flex flex-row justify-between relative max-w-[82.375rem] items-center">
-    <div className="flex flex-col justify-start relative items-stretch">
-        <div className="bg-[#40a072] flex flex-col justify-center relative h-24 shrink-0 items-stretch px-8">
-            <div className="whitespace-nowrap text-3xl font-['Inter'] font-bold leading-[56px] text-[#cfcfcf] relative">
-                Pre Sale Stage
+    <div className="Frame58 w-[1318px] h-[888px] flex-col justify-center items-center gap-2.5 inline-flex">
+      <div className="Frame16 w-[1318px] h-[888px] flex-col justify-center items-start flex">
+        <div className="Frame6 self-stretch h-24 justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-green-500 justify-center items-center gap-2.5 flex">
+            <div className="PreSaleStage grow shrink basis-0 self-stretch text-center text-stone-300 text-[20px] font-bold leading-10">
+              Pre Sale Stage
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-6">
-                01
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-green-500 justify-center items-center gap-2.5 flex">
+            <div className="TokenPrice grow shrink basis-0 self-stretch text-center text-stone-300 text-[20px] font-bold leading-10">
+              Token price
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                02
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-green-500 justify-center items-center gap-2.5 flex">
+            <div className="AmountOfTokens grow shrink basis-0 self-stretch text-center text-stone-300 text-[20px] font-bold leading-10">
+              Amount of tokens
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                03
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-green-500 justify-center items-center gap-2.5 flex">
+            <div className="TokenPercent grow shrink basis-0 self-stretch text-center text-stone-300 text-[20px] font-bold leading-10">
+              Token Percent
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                04
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-green-500 justify-center items-center gap-2.5 flex">
+            <div className="TotalPrice grow shrink basis-0 self-stretch text-center text-stone-300 text-[20px] font-bold leading-10">
+              Total Price
             </div>
+          </div>
         </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                05
+        <div className="Frame7 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              01
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                06
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="00008 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.00008
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                07
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,000
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-8">
-                08
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
             </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-3xl font-['Inter'] font-bold leading-[56px] text-[#e9e9e9] relative w-16">
-                Total
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="700000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $700,000
             </div>
+          </div>
         </div>
+        <div className="Frame8 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              02
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000095 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000095
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,000
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="831250 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $831,250
+            </div>
+          </div>
+        </div>
+        <div className="Frame9 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              03
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000105 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000105
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,00 0
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12,5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="918750 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $918,750
+            </div>
+          </div>
+        </div>
+        <div className="Frame10 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              04
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000115 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000115
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,00 0
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="1006250 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $1,006,250
+            </div>
+          </div>
+        </div>
+        <div className="Frame11 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              05
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000125 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000125
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,00 0
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="1093750 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $1,093,750
+            </div>
+          </div>
+        </div>
+        <div className="Frame12 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              06
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000135 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000135
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,00 0
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="1181250 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $1,181,250
+            </div>
+          </div>
+        </div>
+        <div className="Frame13 self-stretch justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              07
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000145 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000145
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,00 0
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="1268750 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $1,268,750
+            </div>
+          </div>
+        </div>
+        <div className="Frame14 self-stretch h-[88px] justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              08
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000155 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              0.000155
+            </div>
+          </div>
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="750000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              8,750,000,00 0
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="5 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              12.5%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="1356250 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $1,356,250
+            </div>
+          </div>
+        </div>
+        <div className="Frame15 self-stretch justify-start items-start inline-flex">
+          <div className="Frame1 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="Total grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-bold leading-10">
+              Total
+            </div>
+          </div>
+          <div className="Frame2 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10" />
+          <div className="Frame3 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="000000000 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              70,000,000,000
+            </div>
+          </div>
+          <div className="Frame4 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className=" grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              100%
+            </div>
+          </div>
+          <div className="Frame5 grow shrink basis-0 self-stretch px-10 py-5 bg-white bg-opacity-10 border border-white border-opacity-10 justify-center items-center gap-2.5 flex">
+            <div className="8356250 grow shrink basis-0 self-stretch text-center text-gray-200 text-[20px] font-medium leading-10">
+              $8,356,250
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div className="flex flex-col justify-start relative items-stretch">
-        <div className="bg-[#40a072] flex flex-col justify-center relative h-24 shrink-0 items-center">
-            <div className="whitespace-nowrap text-3xl font-['Inter'] font-bold leading-[56px] text-[#cfcfcf] relative w-3/5">
-                Token price
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-24">
-                0.00008
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000095
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000105
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000115
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000125
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000135
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000145
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                0.000155
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 relative h-20 shrink-0 border" />
-    </div>
-    <div className="flex flex-col justify-start relative items-stretch">
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="w-1/2 h-24 bg-[#40a072] absolute top-0 left-0 flex flex-col justify-center items-stretch px-2">
-                <div className="whitespace-nowrap text-3xl font-['Inter'] font-bold leading-[56px] text-[#cfcfcf] relative">
-                    Amount of tokens
-                </div>
-            </div>
-            <div className="bg-[#40a072] relative flex flex-col justify-center w-1/2 h-24 shrink-0 items-stretch px-8">
-                <div className="whitespace-nowrap text-3xl font-['Inter'] font-bold leading-[56px] text-[#cfcfcf] relative">
-                    Token Percent
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/3">
-                    8,750,000,000
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/3">
-                    8,750,000,000
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="whitespace-nowrap text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    8,750,000,00 0
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12,5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="whitespace-nowrap text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    8,750,000,00 0
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="whitespace-nowrap text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    8,750,000,00 0
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="whitespace-nowrap text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    8,750,000,00 0
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="whitespace-nowrap text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    8,750,000,00 0
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="whitespace-nowrap text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    8,750,000,00 0
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    12.5%
-                </div>
-            </div>
-        </div>
-        <div className="relative flex flex-col justify-start items-end">
-            <div className="border-solid border-white/10 w-1/2 h-20 bg-white/10 absolute top-0 left-0 flex flex-col justify-center items-stretch px-10 border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative">
-                    70,000,000,000
-                </div>
-            </div>
-            <div className="border-solid border-white/10 bg-white/10 relative flex flex-col justify-center w-1/2 h-20 shrink-0 items-center border">
-                <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-16">
-                    100%
-                </div>
-            </div>
-        </div>
-    </div>
-    <div className="flex flex-col justify-start relative items-stretch">
-        <div className="bg-[#40a072] flex flex-col justify-center relative h-24 shrink-0 items-center">
-            <div className="whitespace-nowrap text-3xl font-['Inter'] font-bold leading-[56px] text-[#cfcfcf] relative w-3/5">
-                Total Price
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                $700,000
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                $831,250
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-2/5">
-                $918,750
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-1/2">
-                $1,006,250
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-1/2">
-                $1,093,750
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-1/2">
-                $1,181,250
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-1/2">
-                $1,268,750
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-1/2">
-                $1,356,250
-            </div>
-        </div>
-        <div className="border-solid border-white/10 bg-white/10 flex flex-col justify-center relative h-20 shrink-0 items-center border">
-            <div className="text-2xl font-['Inter'] font-medium leading-[48px] text-[#e9e9e9] relative w-1/2">
-                $8,356,250
-            </div>
-        </div>
-    </div>
-</div>
-
-  )
+  );
 }

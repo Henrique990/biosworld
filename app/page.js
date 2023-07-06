@@ -17,8 +17,8 @@ export default function Page() {
         <About />
         <Info />
         <Tokenomics />
-        {/*<TokenInfo />
-        <Roadmap />
+        <TokenInfo />
+        {/*<Roadmap />
         <MeetTeam />
         <HowToBuySection />
         <Footer /> */}
