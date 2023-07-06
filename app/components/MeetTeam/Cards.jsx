@@ -85,7 +85,7 @@ export default function Cards() {
     //       </div>
     //     </div>
     //   </div>
-    <div className="flex flex-row justify-between w-full items-center z-10">
+    <div className="flex flex-row justify-between w-full items-center z-10 mx-[17rem] gap-6">
       <div className="bg-[#203d41] flex flex-col justify-start gap-8 items-center pt-8 pb-16 px-8">
         <Image
           src={rosto}

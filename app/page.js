@@ -20,8 +20,8 @@ export default function Page() {
         <TokenInfo />
         <Roadmap />
         <MeetTeam />
-        {/*<HowToBuySection />
-        <Footer /> */}
+        <HowToBuySection />
+        {/*<Footer /> */}
       </div>
   )
 }
