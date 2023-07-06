@@ -11,17 +11,17 @@ import WalletConnection from "./components/WalletConnection";
 
 export default function Page() {
   return (
-      <div className="w-full">
+      <div className="w-full h-full">
         <Home />
-        <WalletConnection />
+         <WalletConnection />
         <About />
         <Info />
         <Tokenomics />
-        <TokenInfo />
+        {/*<TokenInfo />
         <Roadmap />
         <MeetTeam />
         <HowToBuySection />
-        <Footer />
+        <Footer /> */}
       </div>
   )
 }

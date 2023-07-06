@@ -15,6 +15,7 @@ import Image from "next/image";
 import logo from "../../../public/img/home/bios.png";
 import arrow from "../../../public/img/home/Arrow 1.png";
 import group from "../../../public/img/home/Group 2.png";
+import tree from "../../../public/h-tree-min.png"
 // import bg from "../../../public/img/home/H-bg.png";
 // import tigerr from "../../../public/img/home/tigerr 1.png";
 // import zebra from "../../../public/img/home/zebra 2.png";
@@ -98,13 +99,14 @@ export default function Home() {
   );
 
   return (
-    <div className="w-full h-[67.5rem]">
+    <div className="w-full h-[67.5rem] overflow-hidden">
       <Image
-        src="/H-bg.png"
-        sizes="100vw 100vh"
+        className="h-[67.5rem]"
+        src="/H-bg-min.png"
+        sizes="100vw"
         fill={true}
         style={{ objectFit: "cover" }}
-        alt=""
+        alt="imagem de fundo"
       />
       <div className="flex flex-col justify-center">
         <Navbar className="sticky top z-10 h-max max-w-full bg- border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
@@ -173,7 +175,7 @@ export default function Home() {
           </MobileNav>
         </Navbar>
         <div className="container">
-          <div className="mx-auto max-w-screen-md py-12">
+          <div className="mx-auto max-w-screen-md pt-60 space-y-12">
             {/* <Card className="mb-12 overflow-hidden">
             <img
               alt="nature"
@@ -196,13 +198,14 @@ export default function Home() {
               fingertips{" "}
             </Typography>
             <Button className="bg-[#40a072] flex flex-row justify-center gap-3 rounded-none relative lg:w-[17.25rem] lg:h-[5.625rem] items-center">
-              <span className="whitespace-nowrap lg:text-2xl font- leading-[39px] text-white relative w-1/2">
+              <span className="whitespace-nowrap lg:text-2xl font-bolt leading-[39px] text-white relative w-1/2">
                 Buy Now
               </span>
               <Image src={arrow} />
             </Button>
           </div>
-            <Image className="absolute" src={group} />
+            <Image className="max-w-[49.125rem] absolute right-0 top-[42.5em] z-10 " src="/Tiger.png" alt="tiger" width={400} height={200} />
+            <Image className="absolute right-0 top-[4.5rem] z-0" src={tree} />
         </div>
       </div>
     </div>
