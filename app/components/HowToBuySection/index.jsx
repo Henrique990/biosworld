@@ -1,9 +1,12 @@
 import React from "react";
 
+import monkey from "../../../public/nature-monkey.png";
+import Image from "next/image";
+
 export default function HowToBuySection() {
   return (
     <div className="w-full h-[165.875rem] overflow-hidden relative">
-      HowToBuySection
+      <Image className="absolute bottom-0" src={monkey} />
       <div className="flex justify-center">
         <div className="flex flex-col justify-center gap-10 max-w-[82.33rem] items-stretch mt-12">
           <div className="text-5xl font-['Cattino'] leading-[72px] text-[#3e986f] self-start w-1/2">

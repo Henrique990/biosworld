@@ -21,7 +21,7 @@ export default function Page() {
         <Roadmap />
         <MeetTeam />
         <HowToBuySection />
-        {/*<Footer /> */}
+        <Footer />
       </div>
   )
 }
