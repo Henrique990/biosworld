@@ -19,8 +19,8 @@ export default function Page() {
         <Tokenomics />
         <TokenInfo />
         <Roadmap />
-        {/*<MeetTeam />
-        <HowToBuySection />
+        <MeetTeam />
+        {/*<HowToBuySection />
         <Footer /> */}
       </div>
   )
