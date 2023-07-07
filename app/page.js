@@ -14,7 +14,7 @@ import { useEffect } from 'react';
 
 const AlertOnLoad = () => {
   useEffect(() => {
-    alert("I'm still working on Project Responsiveness!");
+    alert("I'm working on Layout for Mobile!");
   }, []);
 
   return null;
