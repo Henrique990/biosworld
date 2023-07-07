@@ -1,3 +1,5 @@
+"use client"
+
 import About from "./components/Abount";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -8,10 +10,20 @@ import Roadmap from "./components/Roadmap";
 import TokenInfo from "./components/TokenInfo";
 import Tokenomics from "./components/Tokenomics";
 import WalletConnection from "./components/WalletConnection";
+import { useEffect } from 'react';
+
+const AlertOnLoad = () => {
+  useEffect(() => {
+    alert("I'm still working on Project Responsiveness!");
+  }, []);
+
+  return null;
+};
 
 export default function Page() {
   return (
-      <div className="w-full h-full">
+      <div className="max-w-full h-full overflow-hidden">
+        <AlertOnLoad />
         <Home />
          <WalletConnection />
         <About />

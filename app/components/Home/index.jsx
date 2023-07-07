@@ -14,10 +14,10 @@ import Image from "next/image";
 
 import logo from "../../../public/img/home/bios.png";
 import arrow from "../../../public/img/home/Arrow 1.png";
-import group from "../../../public/img/home/Group 2.png";
+import group from "../../../public/H-bg-min.png";
 import tree from "../../../public/h-tree-min.png"
 // import bg from "../../../public/img/home/H-bg.png";
-// import tigerr from "../../../public/img/home/tigerr 1.png";
+import tigerr from "../../../public/Tiger.png";
 // import zebra from "../../../public/img/home/zebra 2.png";
 // import elephant from "../../../public/img/home/elephant 1.png";
 // import htree from "../../../public/img/home/h-tree.png";
@@ -99,9 +99,9 @@ export default function Home() {
   );
 
   return (
-    <div className="w-full h-[67.5rem] overflow-hidden">
+    <div className="relative w-full h-[50rem] lg:h-[67.5rem] overflow-hidden">
       <Image
-        className="h-[67.5rem]"
+        className="absolute"
         src="/H-bg-min.png"
         sizes="100vw"
         fill={true}
@@ -175,7 +175,7 @@ export default function Home() {
           </MobileNav>
         </Navbar>
         <div className="container">
-          <div className="mx-auto max-w-screen-md pt-60 space-y-12">
+          <div className="w-4/5 lg:w-1/2 2xl:w-2/3 pt-40 lg:pt-60 space-y-12 px-4 lg:ml-24 xl:ml-0 2xl:ml-80">
             {/* <Card className="mb-12 overflow-hidden">
             <img
               alt="nature"
@@ -186,25 +186,25 @@ export default function Home() {
             <Typography
               variant="h2"
               color="white"
-              className="lg:text-6xl font-['Cattino'] leading-10 text-white justify-start relative max-w-3xl"
+              className="text-3xl lg:text-6xl 2xl:text-7xl font-['Cattino'] leading-10 text-white justify-start relative lg:max-w-3xl 2xl:max-w-4xl z-10"
             >
               Meme animals trading pixels for petals in their grand home coming
               to the <span className="text-[#40A072]">Flora-Fauna Fiesta</span>
             </Typography>
-            <Typography className="font-normal text-[#EAEAEA]">
+            <Typography className="font-normal text-[#EAEAEA] relative z-10">
               Bios World is proud to call Earth our home! While some may dream
               of exploring Mars, we believe in cherishing and preserving the
               natural wonders of our planet. With outstanding technology at our
               fingertips{" "}
             </Typography>
-            <Button className="bg-[#40a072] flex flex-row justify-center gap-3 rounded-none relative lg:w-[17.25rem] lg:h-[5.625rem] items-center">
-              <span className="whitespace-nowrap lg:text-2xl font-bolt leading-[39px] text-white relative w-1/2">
+            <Button className="bg-[#40a072] flex flex-row justify-center gap-3 rounded-none relative z-10 lg:w-[17.25rem] lg:h-[5.625rem] items-center">
+              <span className="whitespace-nowrap lg:text-2xl leading-[39px] text-white relative w-1/2">
                 Buy Now
               </span>
               <Image src={arrow} />
             </Button>
           </div>
-            <Image className="max-w-[49.125rem] absolute right-0 top-[42.5em] z-10 " src="/Tiger.png" alt="tiger" width={400} height={200} />
+            <Image className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 " src={tigerr} alt="tiger" />
             <Image className="absolute right-0 top-[4.5rem] z-0" src={tree} />
         </div>
       </div>

@@ -6,12 +6,15 @@ import eth from "../../../public/img/WalletConnection/eth.png";
 import bnb from "../../../public/img/WalletConnection/bnb.png";
 import usdt from "../../../public/img/WalletConnection/usdt.png";
 import biosw from "../../../public/img/WalletConnection/BIOSW 1.png";
+import suricato from "../../../public/11 1-min.png"
+import bird from "../../../public/img/WalletConnection/bird-01 1.png"
+
 
 export default function CardPayment() {
   return (
-    <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-start gap-1 relative max-w-[38.75rem] max-h-[40.47463rem] items-stretch pt-10 pb-8 px-12 rounded ">
+    <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-start gap-1 relative 2xl:w-[38.75rem] lg:w-[30rem] max-h-[40.47463rem] items-stretch pt-10 pb-8 px-12 rounded ">
       <div className="flex flex-row justify-between relative items-center mb-6 ml-0 mr-px">
-        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-24 shrink-0 h-16 items-center pt-2 pb-3 border rounded">
+        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-[18%] shrink-0 h-16 items-center pt-2 pb-3 border rounded">
           <div className="text-center text-xl  font-bold text-[#e9e9e9] justify-start relative h-full">
             15
             <br />
@@ -20,7 +23,7 @@ export default function CardPayment() {
             </div>
           </div>
         </div>
-        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-24 shrink-0 h-16 items-center pt-2 pb-3 border rounded">
+        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-[18%] shrink-0 h-16 items-center pt-2 pb-3 border rounded">
           <div className="text-center text-xl  font-normal text-[#e9e9e9] justify-start relative h-full">
             12
             <br />
@@ -29,7 +32,7 @@ export default function CardPayment() {
             </div>
           </div>
         </div>
-        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-24 shrink-0 h-16 items-center py-2 border rounded">
+        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-[18%] shrink-0 h-16 items-center py-2 border rounded">
           <div className="text-center text-xl  font-bold text-[#e9e9e9] justify-start relative w-1/2 h-[88.15%]">
             30
             <br />
@@ -38,7 +41,7 @@ export default function CardPayment() {
             </div>
           </div>
         </div>
-        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-24 shrink-0 h-16 items-center py-2 border rounded">
+        <div className="border-solid border-[#e9e9e9] bg-[#40a072] flex flex-col justify-start relative w-[18%] shrink-0 h-16 items-center py-2 border rounded">
           <div className="text-center text-xl  font-bold text-[#e9e9e9] justify-start relative w-3/5 h-[87.91%]">
             10
             <br />
@@ -161,9 +164,12 @@ export default function CardPayment() {
           Connect Wallet
         </div>
       </div>
-      <div className="text-xs  font-semibold text-[#e9e9e9] self-center relative w-32 h-[1.73%]">
+      <div className="text-xs  font-semibold text-[#e9e9e9] self-center relative w-36 h-[1.73%]">
         LISTING PRICE: $0.00008
       </div>
+        <Image className='absolute top-[-15%] -right-[25%] w-[55%] ' src={bird} />
+        <Image className='absolute -right-[40%] -bottom-[10%] w-[50%]' src={suricato} />
+
     </div>
   );
 }
