@@ -205,7 +205,7 @@ export default function Home() {
             </Button>
           </div>
             <Image className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 " src={tigerr} alt="tiger" />
-            <Image className="absolute right-0 top-[4.5rem] z-0" src={tree} />
+            <Image className="absolute right-0 bottom-0 z-0" src={tree} />
         </div>
       </div>
     </div>

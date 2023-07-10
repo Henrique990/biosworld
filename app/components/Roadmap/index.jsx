@@ -114,36 +114,37 @@ export default function Roadmap() {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-full h-[121.87rem] overflow-hidden relative">
+    <div className="w-full xl:[121.87rem] relative px-2 pb-20">
       <Image
-        className="max-w-[50.12rem] absolute right-0 top-14"
+        className="max-w-[50.12rem] w-[60%] md:w-[40%] absolute right-0 top-[20%] lg:top-14"
         src={guaxinin}
       />
-      <Image className="absolute top-40 left-44 z-10" src={viado} />
-      <Image className="absolute top-0 left-2" src={galho} />
-      <Image className="absolute top-80 left-1" src={bananeira} />
+      <Image className="absolute max-w-[19rem] w-[40%] md:w-[30%] top-[3%] lg:top-40 left-[18%] lg:left-44 z-10" src={viado} />
+      <Image className="absolute max-w-[36rem] w-[60%] top-0 left-2" src={galho} />
+      <Image className="absolute max-w-[43rem] w-[60%] top-[8%] lg:top-80 left-1" src={bananeira} />
       <Image
-        className="absolute top-[8.81rem] left-[22.3rem] z-10"
+        className="absolute w-[15%] left-[38%] top-[2%] md:top-0 md:w-[10%] md:left-[32%] lg:top-[8.81rem] lg:left-[22.3rem] z-10"
         src={espinho}
       />
-      <Image className="absolute bottom-0 left-28" src={urso} />
+      <Image className="absolute w-[50%] md:w-[25%]  -bottom-[10%] md:-bottom-[15%] xl:left-28" src={urso} />
       <div className="flex justify-center">
-        <Image className="absolute bottom-[23rem]" src={estrada} />
+        <Image className="absolute -bottom-[9%] xl:bottom-[23rem]" src={estrada} />
       </div>
 
-      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072] w-full mt-64">
+      <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072] w-full mt-[70%] xl:mt-64 relative z-10">
         Roadmap
       </div>
-      <div className="flex justify-center mt-56">
-        <div className="Group88 w-[1315px] h-[1348px] relative">
-          <div className="Group82 w-[314px] h-[346px] left-0 top-[311px] absolute">
-            <div className="Group81 w-52 h-[46px] left-0 top-0 absolute">
-              <div className="Rectangle70 w-52 h-[46px] left-0 top-0 absolute bg-green-500 rounded-2xl" />
-              <div className="Discovery w-[108px] h-[33px] left-[50px] top-[6px] absolute text-gray-200 text-[28px] font-['Cattino']">
+      <div className="flex justify-center mt-[20%] xl:mt-56">
+        <div className="Group88 w-[80%] md:w-[60%] lg:w-[40%] xl:w-[1315px] xl:h-[1348px] relative space-y-10 ml-2">
+          <div className="Group82 xl:w-[314px] xl:h-[346px] xl:left-0 xl:top-[311px] xl:absolute">
+            <div className="Group81 xl:w-52 xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
+              <div className="Rectangle70 xl:w-52 xl:h-[46px] xl:left-0 xl:top-0 xl:absolute bg-green-500 rounded-2xl">
+              <div className="Discovery flex justify-center py-2 xl:w-[108px] xl:h-[33px] xl:left-[50px] xl:top-[6px] xl:absolute text-gray-200 text-[28px] font-['Cattino']">
                 Discovery
               </div>
+              </div>
             </div>
-            <div className="PreSaleWebsitePreSaleLive10000TelegramCommunityMediaPrSocialChannelLive w-[313px] h-[279px] left-[1px] top-[67px] absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="PreSaleWebsitePreSaleLive10000TelegramCommunityMediaPrSocialChannelLive xl:w-[313px] xl:h-[279px] xl:left-[1px] xl:top-[67px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
               Pre-sale Website
               <br />
               Pre-sale Live
@@ -155,14 +156,15 @@ export default function Roadmap() {
               Social Channel Live
             </div>
           </div>
-          <div className="Group84 w-[463px] h-[382px] left-[353px] top-[966px] absolute">
-            <div className="Group83 w-52 h-[46px] left-0 top-0 absolute">
-              <div className="Rectangle69 w-52 h-[46px] left-0 top-0 absolute bg-green-500 rounded-2xl" />
-              <div className="Protection w-[116px] h-[33px] left-[46px] top-[5px] absolute text-gray-200 text-[28px] font-['Cattino']">
+          <div className="Group84 xl:w-[463px] xl:h-[382px] xl:left-[353px] xl:top-[966px] xl:absolute">
+            <div className="Group83 xl:w-52 xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
+              <div className="Rectangle69 flex justify-center items-center xl:w-52 h-[46px] xl:left-0 xl:top-0 xl:absolute bg-green-500 rounded-2xl">
+              <div className="Protection xl:w-[116px] xl:h-[33px] xl:left-[46px] xl:top-[5px] xl:absolute text-gray-200 text-[28px] font-['Cattino']">
                 Protection
               </div>
+              </div>
             </div>
-            <div className="StDonationToBiodiversity30000TelegramCommunityAmbassadorCampaignFullWebsiteLive1stLaunchOnDexCexChainBridgeAddedAirdrop500m w-[463px] left-0 top-[74px] absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="StDonationToBiodiversity30000TelegramCommunityAmbassadorCampaignFullWebsiteLive1stLaunchOnDexCexChainBridgeAddedAirdrop500m xl:w-[463px] xl:left-0 xl:top-[74px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
               1st donation to Biodiversity
               <br />
               30,000 telegram community
@@ -178,14 +180,15 @@ export default function Roadmap() {
               Airdrop 500M
             </div>
           </div>
-          <div className="Group78 w-[310px] h-[416px] left-[438px] top-[8px] absolute">
-            <div className="Group77 w-52 h-[46px] left-0 top-0 absolute">
-              <div className="Rectangle71 w-52 h-[46px] left-0 top-0 absolute bg-green-500 rounded-2xl" />
-              <div className="Restoration w-[126px] h-[34px] left-[41px] top-[4px] absolute text-gray-200 text-[28px] font-['Cattino']">
+          <div className="Group78 xl:w-[310px] xl:h-[416px] xl:left-[438px] xl:top-[8px] xl:absolute">
+            <div className="Group77 xl:w-52 xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
+              <div className="Rectangle71 flex justify-center items-center xl:w-52 h-[46px] xl:left-0 xl:top-0 xl:absolute bg-green-500 rounded-2xl">
+              <div className="Restoration xl:w-[126px] xl:h-[34px] xl:left-[41px] xl:top-[4px] xl:absolute text-gray-200 text-[28px] font-['Cattino']">
                 Restoration
               </div>
+              </div>
             </div>
-            <div className="NftReleaseCrowdfundingWebsiteLive2ndDonationToBiodiversity60000Holders60000CommunityPartnership2ndLaunchOnDexCexAirdrop500m w-[310px] h-[352px] left-0 top-[64px] absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="NftReleaseCrowdfundingWebsiteLive2ndDonationToBiodiversity60000Holders60000CommunityPartnership2ndLaunchOnDexCexAirdrop500m xl:w-[310px] xl:h-[352px] xl:left-0 xl:top-[64px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
               NFT Release <br />
               CrowdFunding Website Live <br />
               2nd Donation to Biodiversity <br />
@@ -196,14 +199,15 @@ export default function Roadmap() {
               Airdrop 500M{" "}
             </div>
           </div>
-          <div className="Group86 w-[478px] h-[368px] left-[816px] top-[729px] absolute">
-            <div className="Group85 w-[222px] h-[46px] left-0 top-0 absolute">
-              <div className="Rectangle71 w-[222px] h-[46px] left-0 top-0 absolute bg-green-500 rounded-2xl" />
-              <div className="Sustainability w-[153px] h-[33px] left-[34px] top-[3px] absolute text-gray-200 text-[28px] font-['Cattino']">
+          <div className="Group86 xl:w-[478px] xl:h-[368px] xl:left-[816px] xl:top-[729px] xl:absolute">
+            <div className="Group85 xl:w-[222px] xl:h-[46px] xl:left-0 xl:top-0 xl:absolute">
+              <div className="Rectangle71 flex justify-center items-center py-2 xl:w-[222px] xl:h-[46px] xl:left-0 xl:top-0 xl:absolute bg-green-500 rounded-2xl">
+              <div className="Sustainability xl:w-[153px] xl:h-[33px] xl:left-[34px] xl:top-[3px] xl:absolute text-gray-200 text-[28px] font-['Cattino']">
                 Sustainability
               </div>
+              </div>
             </div>
-            <div className="NftMarketplaceClimateChangeInitiativeLaunchFloraFauna50000Volunteers200000HoldersPartnershipBioswapLiveStakingLive w-[477px] left-[1px] top-[60px] absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="NftMarketplaceClimateChangeInitiativeLaunchFloraFauna50000Volunteers200000HoldersPartnershipBioswapLiveStakingLive xl:w-[477px] xl:left-[1px] xl:top-[60px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
               NFT MarketPlace <br />
               Climate Change Initiative Launch (Flora & Fauna) 50,000 volunteers{" "}
               <br />
@@ -213,8 +217,16 @@ export default function Roadmap() {
               Staking Live{" "}
             </div>
           </div>
-          <div className="Group80 w-80 h-[424px] left-[995px] top-0 absolute">
-            <div className="AcademyWithAiToolsBiosGamingP2eWithCauseZooOnMetaverseLive5TokenToCharities500000Holders100000Volunteers1bMarketCapBiosProtocolContinued w-80 h-[366px] left-0 top-[58px] absolute text-gray-200 text-[22px] font-normal leading-10">
+          <div className="Group80 xl:w-80 xl:h-[424px] xl:left-[995px] xl:top-0 xl:absolute">
+          <div className="Group79 xl:w-52 xl:h-[46px] xl:left-[1px] xl:top-0 xl:absolute">
+              <div className="Rectangle70 flex justify-center py-2 xl:w-52 xl:h-[46px] lx:left-0 lx:top-0 xl:absolute bg-green-500 rounded-2xl">
+              <div className="Education xl:w-[108px] xl:h-[34px] lx:left-[50px] lx:top-[4px] xl:absolute text-gray-200 text-[28px] font-['Cattino']">
+                Education
+              </div>
+              </div>
+            </div>
+
+            <div className="AcademyWithAiToolsBiosGamingP2eWithCauseZooOnMetaverseLive5TokenToCharities500000Holders100000Volunteers1bMarketCapBiosProtocolContinued xl:w-80 h-[366px] xl:left-0 xl:top-[58px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
               Academy with AI tools
               <br />
               BIOS Gaming (P2E with cause)
@@ -230,12 +242,6 @@ export default function Roadmap() {
               1B Market Cap
               <br />
               BIOS Protocol ( Continued......
-            </div>
-            <div className="Group79 w-52 h-[46px] left-[1px] top-0 absolute">
-              <div className="Rectangle70 w-52 h-[46px] left-0 top-0 absolute bg-green-500 rounded-2xl" />
-              <div className="Education w-[108px] h-[34px] left-[50px] top-[4px] absolute text-gray-200 text-[28px] font-['Cattino']">
-                Education
-              </div>
             </div>
           </div>
         </div>
