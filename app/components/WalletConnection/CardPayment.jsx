@@ -12,8 +12,8 @@ import bird from "../../../public/img/WalletConnection/bird-01 1.png";
 
 export default function CardPayment() {
   return (
-    <div className="relative z-10 w-4/5 md:w-2/5 2xl:h-4/5 lg:ml-[30%] xl: h-3/5 bg-blue-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
-      <div className=" space-y-4">
+    <div className="relative z-20 w-4/5 h-4/5 md:w-2/5 2xl:h-4/5 lg:ml-[30%] xl:h-3/5 bg-blue-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
+      <div className="space-y-8 lg:space-y-4 flex flex-col ">
         <div className="group-one flex flex-row space-x-4">
           <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
             <p>15</p>
@@ -45,29 +45,27 @@ export default function CardPayment() {
           <div className="mx-4 text-[10px]">1 BIOSW = $0.00008</div>
           <div className="border border-gray-500 hover:border-green-300 h-0 w-1/4"></div>
         </div>
-        <div className="group-five flex flex-row space-x-4">
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+        <div className="group-five flex flex-row space-x-4 text-[6px] lg:text-[8px]">
+          <div className="basis-1/4 flex flex-row justify-between text-center rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
             <Image className="w-1/2" src={eth} alt="eth"/>
-            <div className="flex flex-col justify-center items-center w-1/2">
-              <p>USDT</p>
-              <p>ERC20</p>
+            <div className="flex flex-col justify-center items-center ">
+              <p>ETH</p>
             </div>
           </div>
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+          <div className="basis-1/4 flex flex-row justify-between text-center rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
             <Image className="w-1/2" src={usdt} alt="usdt" />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
               <p>ERC20</p>
             </div>
           </div>
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+          <div className="basis-1/4 flex flex-row justify-between text-center rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
             <Image className="w-1/2" src={bnb} alt="bnb" />
             <div className="flex flex-col justify-center items-center w-1/2">
-              <p>USDT</p>
-              <p>ERC20</p>
+              <p>BNB</p>
             </div>
           </div>
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+          <div className="basis-1/4 flex flex-row justify-between text-center rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
             <Image className="w-1/2" src={usdt} alt="usdt" />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
@@ -81,22 +79,22 @@ export default function CardPayment() {
         </div>
         <div className="group-seven flex justify-between">
           <div className="flex flex-col w-[45%] h-[20%]">
-            <div className="flex flex-row justify-between pr-2 text-[8px]">
+            <div className="flex flex-row justify-between px-2 text-[8px]">
               <p>Amount in ETH you pay</p>
               <p>Max</p>
             </div>
-            <div className="flex flex-row justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
-              <input className="w-10" type="number" />
-              <Image src={eth} alt="eth" />
+            <div className="flex flex-row justify-between h-[10%] p-1  border border-gray-500 hover:border-green-300 rounded-md">
+              <input className="w-full bg-transparent border-0 " type="number" />
+              <Image className="" src={eth} alt="eth" />
             </div>
           </div>
           <div className="relative flex flex-col w-[45%] h-[20%]">
-            <div className="flex flex-row justify-between pr-2 text-[8px]">
+            <div className="flex flex-row justify-between px-2 text-[8px]">
               <p>Amount in ETH you pay</p>
               <p>Max</p>
             </div>
             <div className="flex justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
-              <input className="w-10" type="number" />
+              <input className="w-full bg-transparent border-0" type="number" />
               <Image src={biosw} alt="Biosworld" />
             </div>
           </div>
