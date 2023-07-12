@@ -9,29 +9,31 @@ import usdt from "../../../public/img/WalletConnection/usdt.png";
 import biosw from "../../../public/img/WalletConnection/BIOSW 1.png";
 import suricato from "../../../public/11 1-min.png";
 import bird from "../../../public/img/WalletConnection/bird-01 1.png";
+import MyPage from "./MyCountdown";
 
 export default function CardPayment() {
   return (
     <div className="relative z-20 w-4/5 h-4/5 md:w-2/5 2xl:h-4/5 lg:ml-[30%] xl:h-3/5 bg-blue-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
       <div className="space-y-8 lg:space-y-4 flex flex-col ">
-        <div className="group-one flex flex-row space-x-4">
+        <MyPage />
+        {/* <div className="group-one flex flex-row space-x-4">
           <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
             <p>15</p>
-            <p>hours</p>
+            <p>Days</p>
           </div>
           <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
-            <p>15</p>
-            <p>hours</p>
+            <p>12</p>
+            <p>Hours</p>
           </div>
           <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
-            <p>15</p>
-            <p>hours</p>
+            <p>30</p>
+            <p>Minute</p>
           </div>
           <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
-            <p>15</p>
-            <p>hours</p>
+            <p>10</p>
+            <p>Second</p>
           </div>
-        </div>
+        </div> */}
         <div className="group-two flex w-full h-5 rounded-md border border-gray-500 hover:border-green-300 bg-gray-700">
           <div className="bg-green-600 border-0 rounded-md text-sm px-4">
             <p>Until Next Price: $0.0000324</p>
