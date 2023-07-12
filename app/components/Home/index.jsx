@@ -201,11 +201,11 @@ export default function Home() {
               <span className="whitespace-nowrap lg:text-2xl leading-[39px] text-white relative w-1/2">
                 Buy Now
               </span>
-              <Image src={arrow} />
+              <Image src={arrow} alt="arrow" />
             </Button>
           </div>
             <Image className="w-1/2 lg:w-1/3 absolute right-0 bottom-0  z-10 " src={tigerr} alt="tiger" />
-            <Image className="absolute right-0 bottom-0 z-0" src={tree} />
+            <Image className="absolute right-0 bottom-0 z-0" src={tree} alt="tree" />
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function HowToBuySection() {
   return (
     <div className="w-full xl:h-[165.875rem] relative my-[10%]">
-      <Image className="absolute bottom-0 w-full h-full object-fill" src={monkey} />
+      <Image className="absolute bottom-0 w-full h-full object-fill" src={monkey} alt="monkey" />
       <div className="flex justify-center">
         <div className="flex flex-col justify-center gap-10 max-w-[82.33rem] items-stretch mt-12">
           <div className="text-2xl lg:text-5xl font-['Cattino'] lg:leading-[72px] text-[#3e986f] self-start lg:w-1/2">

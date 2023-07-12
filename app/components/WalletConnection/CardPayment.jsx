@@ -15,24 +15,24 @@ export default function CardPayment() {
     <div className="relative z-10 w-4/5 md:w-2/5 2xl:h-4/5 lg:ml-[30%] xl: h-3/5 bg-blue-gray-900 bg-opacity-90 shadow-md rounded-sm p-4 flex justify-center items-center">
       <div className=" space-y-4">
         <div className="group-one flex flex-row space-x-4">
-          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-white">
+          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
             <p>15</p>
             <p>hours</p>
           </div>
-          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-white">
+          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
             <p>15</p>
             <p>hours</p>
           </div>
-          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-white">
+          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
             <p>15</p>
             <p>hours</p>
           </div>
-          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-white">
+          <div className="basis-1/4 flex flex-col justify-center text-center  bg-[#40A072] rounded-md h-10 border border-gray-500 hover:border-green-300">
             <p>15</p>
             <p>hours</p>
           </div>
         </div>
-        <div className="group-two flex w-full h-5 rounded-md border border-white bg-gray-700">
+        <div className="group-two flex w-full h-5 rounded-md border border-gray-500 hover:border-green-300 bg-gray-700">
           <div className="bg-green-600 border-0 rounded-md text-sm px-4">
             <p>Until Next Price: $0.0000324</p>
           </div>
@@ -41,33 +41,33 @@ export default function CardPayment() {
           <p>USDT Raised: $5,879,000.34 / $7,876,8745</p>
         </div>
         <div className="group-four flex justify-center items-center">
-          <div className="border border-white h-0 w-1/4"></div>
+          <div className="border border-gray-500 hover:border-green-300 h-0 w-1/4"></div>
           <div className="mx-4 text-[10px]">1 BIOSW = $0.00008</div>
-          <div className="border border-white h-0 w-1/4"></div>
+          <div className="border border-gray-500 hover:border-green-300 h-0 w-1/4"></div>
         </div>
         <div className="group-five flex flex-row space-x-4">
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border-2 border-gray-300 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+            <Image className="w-1/2" src={eth} alt="eth"/>
+            <div className="flex flex-col justify-center items-center w-1/2">
+              <p>USDT</p>
+              <p>ERC20</p>
+            </div>
+          </div>
+          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
             <Image className="w-1/2" src={usdt} />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
               <p>ERC20</p>
             </div>
           </div>
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border-2 border-gray-300 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
-            <Image className="w-1/2" src={usdt} />
+          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+            <Image className="w-1/2" src={bnb} alt="bnb" />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
               <p>ERC20</p>
             </div>
           </div>
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border-2 border-gray-300 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
-            <Image className="w-1/2" src={usdt} />
-            <div className="flex flex-col justify-center items-center w-1/2">
-              <p>USDT</p>
-              <p>ERC20</p>
-            </div>
-          </div>
-          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border-2 border-gray-300 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
+          <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
             <Image className="w-1/2" src={usdt} />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
@@ -77,7 +77,7 @@ export default function CardPayment() {
         </div>
         <div className="group-six flex flex-col justify-center items-center space-y-2">
           <p>ETH Balance 23.00</p>
-          <div className="border border-white w-full"></div>
+          <div className="border border-gray-500 hover:border-green-300 w-full"></div>
         </div>
         <div className="group-seven flex justify-between">
           <div className="flex flex-col w-[45%] h-[20%]">
@@ -85,9 +85,9 @@ export default function CardPayment() {
               <p>Amount in ETH you pay</p>
               <p>Max</p>
             </div>
-            <div className="flex flex-row justify-between h-[10%] p-1 border border-white rounded-md">
+            <div className="flex flex-row justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
               <input className="w-10" type="number" />
-              <Image src={eth} />
+              <Image src={eth} alt="eth" />
             </div>
           </div>
           <div className="relative flex flex-col w-[45%] h-[20%]">
@@ -95,9 +95,9 @@ export default function CardPayment() {
               <p>Amount in ETH you pay</p>
               <p>Max</p>
             </div>
-            <div className="flex justify-between h-[10%] p-1 border border-white rounded-md">
+            <div className="flex justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
               <input className="w-10" type="number" />
-              <Image src={eth} />
+              <Image src={biosw} alt="Biosworld" />
             </div>
           </div>
         </div>
@@ -111,8 +111,8 @@ export default function CardPayment() {
           <p className="pt-4 text-sm">LISTING PRICE: $0.00008</p>
         </div>
       </div>
-         <Image className='absolute top-[-15%] -right-[25%] w-[55%] ' src={bird} />
-         <Image className='absolute -right-[40%] -bottom-[10%] w-[50%]' src={suricato} />
+         <Image className='absolute top-[-15%] -right-[25%] w-[55%] ' src={bird} alt="bird" />
+         <Image className='absolute -right-[40%] -bottom-[10%] w-[50%]' src={suricato} alt="meerkat" />
     </div>
     // <div className="shadow-[3px_3px_7px_2px_rgba(0,_0,_0,_0.09)] bg-[rgba(31,_55,_63,_0.9)] flex flex-col justify-center gap-1 relative 2xl:w-[38.75rem] w-[50%] max-[390px]:w-[40rem]  md:w-[80%] h-[30rem] max-h-[40.47463rem] items-stretch pt-10 md:pt-0 pb-8 px-3 xl:px-12 rounded z-10">
     //   <div className="flex flex-row justify-between relative items-center mb-6 ml-0 mr-px">
@@ -170,7 +170,7 @@ export default function CardPayment() {
     //     <div className="border-solid border-[#c1c1c1] relative w-32 shrink-0 h-px bordert borderb-0 borderx-0" />
     //   </div>
     //   <div className="flex flex-row justify-between relative items-center mb-3 ml-0">
-    //     <div className="border-solid border-[#40a072] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-center mt-px gap-3 relative h-12 items-center pl-2 pr-3 py-1 border-2 rounded">
+    //     <div className="border-solid border-[#40a072] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-center mt-px gap-3 relative h-12 items-center pl-2 pr-3 py-1 border rounded">
     //       <Image
     //         src={eth}
     //         className="min-h-0 min-w-0 relative w-8 shrink-0"
@@ -179,7 +179,7 @@ export default function CardPayment() {
     //         ETH
     //       </div>
     //     </div>
-    //     <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-2 relative items-center pl-2 pr-3 py-1 border-2 rounded">
+    //     <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-2 relative items-center pl-2 pr-3 py-1 border rounded">
     //       <Image
     //         src={usdt}
     //         className="min-h-0 min-w-0 mb-1 relative w-8 shrink-0"
@@ -192,7 +192,7 @@ export default function CardPayment() {
     //         </div>
     //       </div>
     //     </div>
-    //     <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-2 relative h-12 items-center pl-2 pr-4 py-1 border-2 rounded">
+    //     <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-2 relative h-12 items-center pl-2 pr-4 py-1 border rounded">
     //       <Image
     //         src={bnb}
     //         className="min-h-0 min-w-0 relative w-8 shrink-0"
@@ -201,7 +201,7 @@ export default function CardPayment() {
     //         BNB
     //       </div>
     //     </div>
-    //     <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-1 relative h-12 items-center pl-2 pr-3 py-2 border-2 rounded">
+    //     <div className="border-solid border-[#e9e9e9] bg-[linear-gradient(180deg,_rgba(217,_217,_217,_0.23)_0%,rgba(217,_217,_217,_0)_169%)] bg-cover bg-50%_50% bg-blend-normal flex flex-row justify-start gap-1 relative h-12 items-center pl-2 pr-3 py-2 border rounded">
     //       <Image
     //         src={usdt}
     //         className="min-h-0 min-w-0 relative w-8 shrink-0"

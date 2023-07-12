@@ -119,16 +119,17 @@ export default function Roadmap() {
         className="max-w-[50.12rem] w-[60%] md:w-[40%] absolute right-0 top-[20%] lg:top-14"
         src={guaxinin}
       />
-      <Image className="absolute max-w-[19rem] w-[40%] md:w-[30%] top-[3%] lg:top-40 left-[18%] lg:left-44 z-10" src={viado} />
-      <Image className="absolute max-w-[36rem] w-[60%] top-0 left-2" src={galho} />
-      <Image className="absolute max-w-[43rem] w-[60%] top-[8%] lg:top-80 left-1" src={bananeira} />
+      <Image className="absolute max-w-[19rem] w-[40%] md:w-[30%] top-[3%] lg:top-40 left-[18%] lg:left-44 z-10" src={viado} alt="fag" />
+      <Image className="absolute max-w-[36rem] w-[60%] top-0 left-2" src={galho} alt="tree branches"/>
+      <Image className="absolute max-w-[43rem] w-[60%] top-[8%] lg:top-80 left-1" src={bananeira} alt="banana tree" />
       <Image
         className="absolute w-[15%] left-[38%] top-[2%] md:top-0 md:w-[10%] md:left-[32%] lg:top-[8.81rem] lg:left-[22.3rem] z-10"
         src={espinho}
+        alt="Hedgehog"
       />
-      <Image className="absolute w-[50%] md:w-[25%]  -bottom-[10%] md:-bottom-[15%] xl:left-28" src={urso} />
+      <Image className="absolute w-[50%] md:w-[25%]  -bottom-[10%] md:-bottom-[15%] xl:left-28" src={urso} alt="bear" />
       <div className="flex justify-center">
-        <Image className="absolute -bottom-[9%] xl:bottom-[23rem]" src={estrada} />
+        <Image className="absolute -bottom-[9%] xl:bottom-[23rem]" src={estrada} alt="road"  />
       </div>
 
       <div className="text-center text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072] w-full mt-[70%] xl:mt-64 relative z-10">
@@ -144,7 +145,7 @@ export default function Roadmap() {
               </div>
               </div>
             </div>
-            <div className="PreSaleWebsitePreSaleLive10000TelegramCommunityMediaPrSocialChannelLive xl:w-[313px] xl:h-[279px] xl:left-[1px] xl:top-[67px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="PreSaleWebsitePreSaleLive10000TelegramCommunityMediaPrSocialChannelLive xl:w-[313px] xl:h-[279px] xl:left-[1px] xl:top-[67px] xl:absolute text-gray-200 text-lg lg:text-[22px] font-normal leading-10">
               Pre-sale Website
               <br />
               Pre-sale Live
@@ -164,7 +165,7 @@ export default function Roadmap() {
               </div>
               </div>
             </div>
-            <div className="StDonationToBiodiversity30000TelegramCommunityAmbassadorCampaignFullWebsiteLive1stLaunchOnDexCexChainBridgeAddedAirdrop500m xl:w-[463px] xl:left-0 xl:top-[74px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="StDonationToBiodiversity30000TelegramCommunityAmbassadorCampaignFullWebsiteLive1stLaunchOnDexCexChainBridgeAddedAirdrop500m xl:w-[463px] xl:left-0 xl:top-[74px] xl:absolute text-gray-200 text-lg lg:text-[22px] font-normal leading-10">
               1st donation to Biodiversity
               <br />
               30,000 telegram community
@@ -188,7 +189,7 @@ export default function Roadmap() {
               </div>
               </div>
             </div>
-            <div className="NftReleaseCrowdfundingWebsiteLive2ndDonationToBiodiversity60000Holders60000CommunityPartnership2ndLaunchOnDexCexAirdrop500m xl:w-[310px] xl:h-[352px] xl:left-0 xl:top-[64px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="NftReleaseCrowdfundingWebsiteLive2ndDonationToBiodiversity60000Holders60000CommunityPartnership2ndLaunchOnDexCexAirdrop500m xl:w-[310px] xl:h-[352px] xl:left-0 xl:top-[64px] xl:absolute text-gray-200 text-lg lg:text-[22px] font-normal leading-10">
               NFT Release <br />
               CrowdFunding Website Live <br />
               2nd Donation to Biodiversity <br />
@@ -207,7 +208,7 @@ export default function Roadmap() {
               </div>
               </div>
             </div>
-            <div className="NftMarketplaceClimateChangeInitiativeLaunchFloraFauna50000Volunteers200000HoldersPartnershipBioswapLiveStakingLive xl:w-[477px] xl:left-[1px] xl:top-[60px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="NftMarketplaceClimateChangeInitiativeLaunchFloraFauna50000Volunteers200000HoldersPartnershipBioswapLiveStakingLive xl:w-[477px] xl:left-[1px] xl:top-[60px] xl:absolute text-gray-200 text-lg lg:text-[22px] font-normal leading-10">
               NFT MarketPlace <br />
               Climate Change Initiative Launch (Flora & Fauna) 50,000 volunteers{" "}
               <br />
@@ -226,7 +227,7 @@ export default function Roadmap() {
               </div>
             </div>
 
-            <div className="AcademyWithAiToolsBiosGamingP2eWithCauseZooOnMetaverseLive5TokenToCharities500000Holders100000Volunteers1bMarketCapBiosProtocolContinued xl:w-80 h-[366px] xl:left-0 xl:top-[58px] xl:absolute text-gray-200 text-[22px] font-normal leading-10">
+            <div className="AcademyWithAiToolsBiosGamingP2eWithCauseZooOnMetaverseLive5TokenToCharities500000Holders100000Volunteers1bMarketCapBiosProtocolContinued xl:w-80 h-[366px] xl:left-0 xl:top-[58px] xl:absolute text-gray-200 text-lg lg:text-[22px] font-normal leading-10">
               Academy with AI tools
               <br />
               BIOS Gaming (P2E with cause)

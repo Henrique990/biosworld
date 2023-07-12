@@ -88,6 +88,7 @@ export default function Cards() {
     <div className="flex flex-col xl:flex-row justify-between w-full items-center z-10 lg:mx-[17rem] gap-6">
       <div className="bg-[#203d41] flex flex-col justify-start gap-8 items-center pt-8 pb-16 px-8">
         <Image
+          alt="face"
           src={rosto}
           className="min-h-0 min-w-0 mb-3"
         />
@@ -106,7 +107,8 @@ export default function Cards() {
         </div>
       </div>
       <div className="bg-[#203d41] flex flex-col justify-start gap-8 items-stretch pt-8 pb-16 px-8">
-        <Image
+        <Image 
+          alt="fox"
           src={fox}
           className="min-h-0 min-w-0 self-center mb-3"
         />
@@ -126,6 +128,7 @@ export default function Cards() {
       </div>
       <div className="bg-[#203d41] flex flex-col justify-start gap-6 items-stretch pt-8 pb-16 px-8">
         <Image
+          alt="animals"
           src={animals}
           className="min-h-0 min-w-0 self-center mb-6"
         />
