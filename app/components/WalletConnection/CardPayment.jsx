@@ -54,7 +54,7 @@ export default function CardPayment() {
             </div>
           </div>
           <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
-            <Image className="w-1/2" src={usdt} />
+            <Image className="w-1/2" src={usdt} alt="usdt" />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
               <p>ERC20</p>
@@ -68,7 +68,7 @@ export default function CardPayment() {
             </div>
           </div>
           <div className="basis-1/4 flex flex-row justify-center text-center text-[6px] rounded-md h-[10%] border border-gray-300 hover:border-green-500 bg-gradient-to-t from-gray-900 via-gray-900 to-transparent p-2">
-            <Image className="w-1/2" src={usdt} />
+            <Image className="w-1/2" src={usdt} alt="usdt" />
             <div className="flex flex-col justify-center items-center w-1/2">
               <p>USDT</p>
               <p>ERC20</p>

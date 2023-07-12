@@ -9,7 +9,7 @@ export default function Info() {
             <div className="text-xl lg:text-3xl font-['Cattino'] leading-[48px] text-[#40a072] ml-1 relative lg:w-3/5">
               A Metaverse With A Message
             </div>
-            <div className="lg:text-xl font-['Inter'] leading-[44px] text-[#e9e9e9] self-stretch ml-1 relative h-[48.63%]">
+            <div className="lg:text-xl leading-[44px] text-[#e9e9e9] self-stretch ml-1 relative h-[48.63%]">
               BIOSW isn't just a token. It's the key to an NFTbased metaverse
               where technology meets the needs of the natural world. Our team is
               hard at work developing robust use cases, like an NFT marketplace
@@ -21,7 +21,7 @@ export default function Info() {
             <div className="text-xl lg:text-3xl font-['Cattino'] leading-[48px] text-[#40a072] ml-2 relative lg:w-3/5">
               Not Just a Meme Coin, a Mission
             </div>
-            <div className="lg:text-xl font-['Inter'] leading-[44px] text-[#e9e9e9] self-stretch lg:mr-8 relative h-[72.36%]">
+            <div className="lg:text-xl leading-[44px] text-[#e9e9e9] self-stretch lg:mr-8 relative h-[72.36%]">
               You've probably heard of meme coins. Maybe you've even dabbled in
               Doge or had a fling with Frog. But have you ever found a meme coin
               that stands for something? Enter BIOSW, the meme coin with a purpose
@@ -36,7 +36,7 @@ export default function Info() {
           <div className="text-xl lg:text-3xl font-['Cattino'] leading-[48px] text-[#40a072] relative lg:w-[356px]">
             Be A Part of The Change
           </div>
-          <div className="text-base lg:text-xl font-['Inter'] leading-[44px] text-[#e9e9e9] self-stretch mr-1 relative h-[71.25%]">
+          <div className="text-base lg:text-xl leading-[44px] text-[#e9e9e9] self-stretch mr-1 relative h-[71.25%]">
             As Bios World grows, we aim to amplify our message, spreading the
             urgency of preserving biodiversity far and wide. But we can't do it
             alone. We need you to join us in our mission to discourage

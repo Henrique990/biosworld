@@ -10,9 +10,9 @@ export default function Tokenomics() {
       <div className="text-5xl font-['Cattino'] leading-[78px] capitalize text-[#40a072]  w-full flex justify-center mt-52">
         Tokenomics
       </div>
-      <div className="text-2xl lg:text-5xl font-['Inter'] font-bold leading-[72px] text-[#e9e9e9] flex justify-center  w-full mt-44">
+      <div className="text-2xl lg:text-5xl font-bold leading-[72px] text-[#e9e9e9] flex justify-center  w-full mt-44">
         100,000,000,000
-        <div className="text-2xl lg:text-5xl font-['Inter'] font-bold leading-[72px] text-[#deede4] contents">
+        <div className="text-2xl lg:text-5xl font-bold leading-[72px] text-[#deede4] contents">
           {" "}
         </div>
         <div className="text-2xl lg:text-5xl font-['Cattino'] leading-[72px] text-[#40a072] contents">

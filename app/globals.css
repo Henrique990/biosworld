@@ -63,8 +63,14 @@ html, body {
   witdh: 100vw;
   background: #1F373F;
   color: #FFF;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
 }
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+  font-display: swap;
+}
+
 
 .bg-imagem {
   background-image: url('/public/img/home/H-bg.png');

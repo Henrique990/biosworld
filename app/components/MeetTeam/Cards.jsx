@@ -95,11 +95,11 @@ export default function Cards() {
         <div className="text-3xl font-['Cattino'] leading-[42px] capitalize text-white self-start justify-start ml-3 w-1/2">
           flora - Founder
           <br />
-          <div className="text-sm font-['Inter'] leading-[21px] capitalize text-white contents">
+          <div className="text-sm leading-[21px] capitalize text-white contents">
             Tech-savvy treehugger
           </div>
         </div>
-        <div className="text-xl font-['Inter'] leading-[44px] text-[#e9e9e9] self-stretch ml-3 h-[48.38%]">
+        <div className="text-xl leading-[44px] text-[#e9e9e9] self-stretch ml-3 h-[48.38%]">
           Our meme-tastic founder, is a true connoisseur of code who swapped the
           concrete jungle for the heart of the rainforest. Known for her genius
           in tech, she's as comfortable crafting complex algorithms as she is
@@ -115,11 +115,11 @@ export default function Cards() {
         <div className="text-3xl font-['Cattino'] leading-[42px] capitalize text-white justify-start ml-1 mr-4">
           fauna - co-founder
           <br />
-          <div className="text-sm font-['Inter'] leading-[21px] capitalize text-white contents">
+          <div className="text-sm leading-[21px] capitalize text-white contents">
             doctor-techie championing biodiversity
           </div>
         </div>
-        <div className="text-xl font-['Inter'] leading-[44px] text-[#e9e9e9] h-[48.38%] mx-1">
+        <div className="text-xl leading-[44px] text-[#e9e9e9] h-[48.38%] mx-1">
           Fauna is more than just a meme – she's a revolution. Armed with a
           stethoscope in one hand and a keyboard in the other, she's a genius
           doctor and tech enthusiast who's breaking boundaries as the co-founder
@@ -135,11 +135,11 @@ export default function Cards() {
         <div className="text-3xl font-['Cattino'] leading-[42px] capitalize text-white justify-start ml-1 mr-4">
           bios code army
           <br />
-          <div className="text-sm font-['Inter'] leading-[21px] capitalize text-white contents">
+          <div className="text-sm leading-[21px] capitalize text-white contents">
             tech warriors of the wild
           </div>
         </div>
-        <div className="text-xl font-['Inter'] leading-[44px] text-[#e9e9e9] h-[48.38%] mx-1">
+        <div className="text-xl leading-[44px] text-[#e9e9e9] h-[48.38%] mx-1">
           The meme-tastic tech team that's traded office desks for forest dens.
           Living in harmony with nature, they're the coding champions behind
           Bios World, turning the whispers of the wilderness into digital

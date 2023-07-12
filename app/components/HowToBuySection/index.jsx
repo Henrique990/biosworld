@@ -13,7 +13,7 @@ export default function HowToBuySection() {
             1. Meme-ify Your Mobile:
           </div>
           <div className="bg-white/10 flex flex-col justify-start lg:mb-16 lg:h-[302px] shrink-0 items-stretch lg:pt-16 pb-12 px-2 lg:px-12">
-            <div className="text-base lg:text-3xl font-['Inter'] leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-1 h-full">
+            <div className="text-base lg:text-3xl leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-1 h-full">
               To join the BIOSW brigade, you're going to need a crypto wallet.
               Trust Wallet, MetaMask, or another of your choice will do the trick.
               Pop over to the App Store or Google Play to snag one, or if you're
@@ -24,7 +24,7 @@ export default function HowToBuySection() {
             2. Feed Your Wallet with ETH:
           </div>
           <div className="bg-white/10 flex flex-col justify-center lg:mb-16 lg:h-[339px] shrink-0 items-stretch px-2 lg:px-12">
-            <div className="text-base lg:text-3xl font-['Inter'] leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-1 lg:h-[66.96%]">
+            <div className="text-base lg:text-3xl leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-1 lg:h-[66.96%]">
               Your wallet's got a serious hunger for some BNB, the magic key to
               unlock your BIOSW. You can grab some directly through MetaMask,
               transfer from another wallet, or buy on an exchange and withdraw it
@@ -36,7 +36,7 @@ export default function HowToBuySection() {
             3. Unleash the Power of Uniswap:
           </div>
           <div className="bg-white/10 flex flex-col justify-start lg:mb-16 lg:h-[357px] shrink-0 items-stretch px-2 lg:px-12 lg:py-16">
-            <div className="text-base lg:text-3xl font-['Inter'] leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-3 lg:h-[78.19%]">
+            <div className="text-base lg:text-3xl leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-3 lg:h-[78.19%]">
               It's time to connect to Uniswap, your portal to the BIOSW universe.
               We've made it super simple by embedding Uniswap right here on
               biosworld.io. If you're going solo on your browser, make sure you're
@@ -48,7 +48,7 @@ export default function HowToBuySection() {
             4. Make the Swap:
           </div>
           <div className="bg-white/10 flex flex-col justify-center lg:h-[357px] shrink-0 items-stretch mx-0 lg:px-12">
-            <div className="text-base lg:text-3xl font-['Inter'] leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-2 lg:h-[68.91%] px-2">
+            <div className="text-base lg:text-3xl leading-[30px] lg:leading-[56px] text-[#e9e9e9] mr-2 lg:h-[68.91%] px-2">
               Now that you've got BNB in your wallet, you can swap it for some
               shiny BIOSW. Make sure you keep enough BNB for those gas fees, and
               then review and confirm your transaction. Congratulations! You're
