@@ -13,6 +13,10 @@ module.exports = withMT(
         fontFamily: {
           cattino: ['Cattino'],
         },
+        screen: {
+          'desktop2': '2080px',
+      // => @media (min-width: 1280px) { ... }
+        },
         extend: {
           backgroundImage: {
             'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
