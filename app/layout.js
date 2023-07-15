@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function RootLayout({ children }) {
   return (
-    <html className='w-full' lang="en" title='BiosWorld'>
+    <html className='w-full' lang="en" >
       <body class="w-full font-inter" className={inter.className}>{children}</body>
     </html>
   )

@@ -97,7 +97,7 @@ export default function CardPayment() {
             </div>
             <div className="flex justify-between h-[10%] p-1 border border-gray-500 hover:border-green-300 rounded-md">
               <input className="w-full bg-transparent border-0" type="number" />
-              <Image src={biosw} alt="Biosworld" />
+              <Image src={biosw} alt="Bios" />
             </div>
           </div>
         </div>

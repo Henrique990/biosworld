@@ -12,18 +12,18 @@ import Tokenomics from "./components/Tokenomics";
 import WalletConnection from "./components/WalletConnection";
 import { useEffect } from 'react';
 
-const AlertOnLoad = () => {
-  useEffect(() => {
-    alert("I'm working on Layout for Mobile!");
-  }, []);
+// const AlertOnLoad = () => {
+//   useEffect(() => {
+//     alert("I'm working on Layout for Mobile!");
+//   }, []);
 
-  return null;
-};
+//   return null;
+// };
 
 export default function Page() {
   return (
       <div className="max-w-full h-full overflow-hidden">
-        <AlertOnLoad />
+        {/* <AlertOnLoad /> */}
         <Home />
          <WalletConnection />
         <About />

@@ -109,7 +109,7 @@ export default function Home() {
         alt="imagem de fundo"
       />
       <div className="flex flex-col justify-center">
-        <Navbar className="sticky top z-10 h-max max-w-full bg- border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
+        <Navbar className="container sticky top z-10 h-max max-w-full bg- border-none rounded-none py-2 px-4 lg:px-8 lg:py-4">
           <div className="flex items-center justify-between lg:justify-around ">
             {/* <Typography
             as="a"

@@ -118,7 +118,7 @@ export default function Footer() {
     <footer className="bg-[#142930] h-[25rem] md:h-[43rem] xl:h-[50rem] p-2 md:p-6 leading-7 text-[#C1C1C1] space-y-10">
       <Image className="xl:ml-[11%] 2xl:ml-[12%]" alt="Logo BiosWorld" src={bios} />
       <div className="flex flex-row justify-around text-base md:text-lg xl:text-2xl xl:mx-28">
-        <div className="">
+        <div className="container">
           <div className="hidden md:block md:w-[70%] space-y-5">
             <p>
               Bios World Driving Environmental Change through Community and
